@@ -15,7 +15,9 @@
           :to="`/${link.newShortUrl}`"
           class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
           role="menuitem"
-          >http://localhost:3000/{{ link.newShortUrl }}</NuxtLink
+          >https://elegant-bartik-557acf.netlify.app/{{
+            link.newShortUrl
+          }}</NuxtLink
         >
       </div>
     </div>

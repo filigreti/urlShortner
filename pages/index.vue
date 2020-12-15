@@ -5,6 +5,7 @@
     <form @submit.prevent="copyLink" class="w-full">
       <h2 class="font-medium tracking-wide">Link</h2>
       <input
+        required
         type="url"
         v-model="link"
         ref="input"
@@ -12,6 +13,7 @@
       />
       <div class="flex mt-3 items-center">
         <input
+          required
           :disabled="link == ''"
           v-model="toggle"
           type="checkbox"
@@ -63,7 +65,6 @@ export default {
       link: '',
       toggle: false,
       error: false,
-      links: []
     }
   },
   watch: {
@@ -121,7 +122,7 @@ export default {
           newShortUrl: this.getrandom(),
           currentIndex,
         }
-        let genLink = "http://localhost:3000/" + newUrl.newShortUrl;
+        let genLink = "https://elegant-bartik-557acf.netlify.app/" + newUrl.newShortUrl;
         existingLinks.push(newUrl)
         localStorage.setItem("lists", JSON.stringify(existingLinks))
         return genLink;
