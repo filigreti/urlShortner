@@ -1,7 +1,7 @@
 <template>
   <main class="w-screen h-screen flex items-center justify-center">
     <div
-      class="w-64 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+      class="w-128 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
     >
       <div
         class="py-1"
