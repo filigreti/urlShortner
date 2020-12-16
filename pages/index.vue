@@ -122,7 +122,7 @@ export default {
           newShortUrl: this.getrandom(),
           currentIndex,
         }
-        let genLink = "https://elegant-bartik-557acf.netlify.app/" + newUrl.newShortUrl;
+        let genLink = "http://localhost:3000/" + newUrl.newShortUrl;
         existingLinks.push(newUrl)
         localStorage.setItem("lists", JSON.stringify(existingLinks))
         return genLink;
