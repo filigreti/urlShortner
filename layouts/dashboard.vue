@@ -5,7 +5,7 @@
       <sidebar class="hidden lg:block fixed" />
       <rightbar class="hidden lg:block fixed" />
 
-      <div class="pb-5 pt-6 lg:pt-4 lg:bg-white lg:ml-64 lg:mr-72">
+      <div class="pb-5 pt-6 lg:pt-4 lg:bg-white lg:ml-64 lg:mr-72 min-h-screen">
         <Nuxt />
       </div>
     </div>

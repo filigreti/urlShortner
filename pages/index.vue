@@ -145,4 +145,7 @@ export default {
   box-shadow: -4px -4px 8px rgba(241, 239, 239, 0.25),
     4px 4px 8px rgba(228, 231, 232, 0.31);
 }
+.smallest {
+  font-size: 10px;
+}
 </style>

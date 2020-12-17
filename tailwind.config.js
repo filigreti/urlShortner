@@ -52,6 +52,7 @@ module.exports = {
         "dsaGreen-200": "#32C34A",
         "dsaBlue-100": "#E9F3F8",
         "dsaBlue-200": "#3997C5",
+        "dsaBlue-300": "#3f75ff",
         "dsaOcean-100": "#ECF1FF",
         "dsaOcean-200": "#3F75FF",
         "dsaYellow-100": "#FEF8E7",
@@ -74,7 +75,8 @@ module.exports = {
         "dsaMobileBrown-200": "#848CA5",
         dsaBackground: "#F9FAFC",
         dsaBorder: "#E9ECF2",
-        "dsaBorder-200": "#F3F5F7"
+        "dsaBorder-200": "#F3F5F7",
+        dsaInput: "#F4F5F8"
       },
       spacing: {
         "14": "3.5rem",

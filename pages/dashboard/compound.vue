@@ -33,7 +33,7 @@
               Lend
             </p>
           </div>
-          <div>
+          <div @click="toggleUp">
             <img src="@/assets/money-out.svg" alt="" />
           </div>
         </div>
@@ -46,7 +46,7 @@
               Borrowed
             </p>
           </div>
-          <div>
+          <div @click="toggleDown">
             <img src="@/assets/money-in.svg" alt="" />
           </div>
         </div>
@@ -185,8 +185,22 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 export default {
-  layout: 'dashboard'
+  layout: 'dashboard',
+  methods: {
+    ...mapMutations({
+      increase: 'local/increment',
+      decrease: 'local/decrement',
+    }),
+    toggleUp() {
+      this.increase()
+    },
+    toggleDown() {
+      this.decrease()
+    }
+  }
+
 }
 </script>
 
