@@ -4,7 +4,7 @@ export const state = () => ({
 
 export const mutations = {
   increment(state) {
-    if (state.counter <= 5) {
+    if (state.counter < 4) {
       state.counter += 1;
     }
   },

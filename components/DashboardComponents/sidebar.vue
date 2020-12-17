@@ -1,9 +1,12 @@
 <template>
   <main id="routes">
     <div class="text-xs w-64 left-0 top-0 h-screen">
-      <div class="ml-10 mt-5">
-        <img src="@/assets/instadapp-logo.svg" class="w-32" alt="" />
-      </div>
+      <nuxt-link to="/dashboard">
+        <div class="ml-10 mt-5">
+          <img src="@/assets/instadapp-logo.svg" class="w-32" alt="" />
+        </div>
+      </nuxt-link>
+
       <div class="ml-6 mt-5">
         <nuxt-link
           class="text-dsaGrey-200 pr-14 pl-6 border-dsaBorder-200 border-t border-b inline-flex pt-6 pb-5 items-center"
