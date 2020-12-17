@@ -138,6 +138,11 @@ export default {
 
 <style>
 * {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.box-shadow {
+  box-shadow: -4px -4px 8px rgba(241, 239, 239, 0.25),
+    4px 4px 8px rgba(228, 231, 232, 0.31);
 }
 </style>
